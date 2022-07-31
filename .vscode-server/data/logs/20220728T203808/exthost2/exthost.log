@@ -1,0 +1,14 @@
+[2022-07-28 20:38:24.410] [exthost] [info] Extension host with pid 12561 started
+[2022-07-28 20:38:24.437] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/5aaffaab6e6f59c08e7764dcb03d3095/vscode.lock': Lock acquired.
+[2022-07-28 20:38:24.878] [exthost] [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: false, activationEvent: 'onLanguage:terraform'
+[2022-07-28 20:38:25.144] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-28 20:38:25.148] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-28 20:38:25.153] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-28 20:38:25.397] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-28 20:38:25.553] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-28 20:38:42.795] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-28 20:42:42.336] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-28 20:45:12.824] [exthost] [info] Eager extensions activated
+[2022-07-28 20:46:12.456] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-28 20:46:12.634] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/5aaffaab6e6f59c08e7764dcb03d3095/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-07-28 20:46:17.816] [exthost] [info] Extension host with pid 12561 exiting with code 0

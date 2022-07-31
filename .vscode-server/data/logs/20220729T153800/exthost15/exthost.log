@@ -1,0 +1,20 @@
+[2022-07-29 18:19:27.035] [exthost] [info] Extension host with pid 25087 started
+[2022-07-29 18:19:27.036] [exthost] [error] Error: EEXIST: file already exists, open '/home/ec2-user/.vscode-server/data/User/workspaceStorage/6b9d7e93e5c219ee38a72feac583f8aa/vscode.lock'
+[2022-07-29 18:19:27.057] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/6b9d7e93e5c219ee38a72feac583f8aa/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-07-29 18:19:27.075] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/6b9d7e93e5c219ee38a72feac583f8aa/vscode.lock': The lock does not look stale, elapsed: 326 ms, giving up.
+[2022-07-29 18:19:27.076] [exthost] [error] Error: EEXIST: file already exists, open '/home/ec2-user/.vscode-server/data/User/workspaceStorage/6b9d7e93e5c219ee38a72feac583f8aa-1/vscode.lock'
+[2022-07-29 18:19:27.085] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/6b9d7e93e5c219ee38a72feac583f8aa-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-07-29 18:19:27.086] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/6b9d7e93e5c219ee38a72feac583f8aa-1/vscode.lock': The lock does not look stale, elapsed: 163 ms, giving up.
+[2022-07-29 18:19:27.109] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/6b9d7e93e5c219ee38a72feac583f8aa-2/vscode.lock': Lock acquired.
+[2022-07-29 18:19:27.487] [exthost] [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: false, activationEvent: 'onLanguage:terraform'
+[2022-07-29 18:19:27.804] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-29 18:19:27.821] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-29 18:19:27.848] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-29 18:19:28.214] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-29 18:22:22.082] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-29 18:24:05.968] [exthost] [info] Not activating extension 'hashicorp.terraform': Timed out while searching for 'workspaceContains' pattern **/*.tf,**/*.tfvars
+[2022-07-29 18:24:08.807] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-29 18:24:45.164] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-29 18:41:07.702] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-29 18:41:07.707] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/6b9d7e93e5c219ee38a72feac583f8aa-2/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-07-29 18:41:07.709] [exthost] [info] Extension host with pid 25087 exiting with code 0

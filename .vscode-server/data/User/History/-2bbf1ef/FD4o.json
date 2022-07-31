@@ -1,0 +1,9 @@
+{
+    "remote.SSH.remotePlatform": {
+        "3.99.130.194": "linux",
+        "3.19.64.198": "linux",
+        "aws-server": "linux",
+        "aws-seeve": "linux",
+        "aws-server33": "linux"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "aws.profile": "profile:aws",
+    "remote.SSH.remotePlatform": {
+        "aws-server": "linux",
+        "aws-servers": "linux"
+    }
+}

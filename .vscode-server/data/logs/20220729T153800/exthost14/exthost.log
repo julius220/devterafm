@@ -1,0 +1,13 @@
+[2022-07-29 18:17:04.792] [exthost] [info] Extension host with pid 24943 started
+[2022-07-29 18:17:04.830] [exthost] [error] Error: EEXIST: file already exists, open '/home/ec2-user/.vscode-server/data/User/workspaceStorage/6b9d7e93e5c219ee38a72feac583f8aa/vscode.lock'
+[2022-07-29 18:17:04.877] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/6b9d7e93e5c219ee38a72feac583f8aa/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-07-29 18:17:04.891] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/6b9d7e93e5c219ee38a72feac583f8aa/vscode.lock': The lock does not look stale, elapsed: 452 ms, giving up.
+[2022-07-29 18:17:04.935] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/6b9d7e93e5c219ee38a72feac583f8aa-1/vscode.lock': Lock acquired.
+[2022-07-29 18:17:05.129] [exthost] [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: false, activationEvent: 'onLanguage:terraform'
+[2022-07-29 18:17:05.303] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-29 18:17:05.319] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-29 18:17:05.335] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-29 18:17:06.256] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-29 18:17:06.495] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-29 18:19:22.932] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-29 18:19:23.036] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

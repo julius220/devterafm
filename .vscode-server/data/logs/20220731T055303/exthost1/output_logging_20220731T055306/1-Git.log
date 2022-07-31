@@ -1,0 +1,22 @@
+[2022-07-31T05:53:07.447Z] Log level: Info
+[2022-07-31T05:53:07.459Z] [info] Validating found git in: git
+[2022-07-31T05:53:07.514Z] [info] Using git 2.37.1 from git
+[2022-07-31T05:53:07.701Z] > git rev-parse --show-toplevel [122ms]
+[2022-07-31T05:53:07.751Z] > git rev-parse --git-dir --git-common-dir [6ms]
+[2022-07-31T05:53:07.791Z] [info] Open repository: /home/ec2-user/terraform
+[2022-07-31T05:53:07.820Z] > git status -z -uall [18ms]
+[2022-07-31T05:53:07.854Z] > git symbolic-ref --short HEAD [22ms]
+[2022-07-31T05:53:07.877Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+[2022-07-31T05:53:07.905Z] > git remote --verbose [7ms]
+[2022-07-31T05:53:07.906Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [18ms]
+[2022-07-31T05:53:07.930Z] > git config --get commit.template [5ms]
+[2022-07-31T05:53:08.016Z] > git status -z -uall [73ms]
+[2022-07-31T05:53:08.033Z] > git symbolic-ref --short HEAD [9ms]
+[2022-07-31T05:53:08.054Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+[2022-07-31T05:53:08.067Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-07-31T05:53:08.072Z] > git remote --verbose [6ms]
+[2022-07-31T05:53:08.079Z] > git config --get commit.template [3ms]
+[2022-07-31T05:53:08.545Z] > git check-ignore -v -z --stdin [5ms]
+[2022-07-31T05:53:08.618Z] > git show --textconv :.gitignore [8ms]
+[2022-07-31T05:53:08.621Z] > git ls-files --stage -- /home/ec2-user/terraform/.gitignore [5ms]
+[2022-07-31T05:53:08.626Z] > git cat-file -s 126236d1d21ed2b1f20bfa004e20f3c1ebccfa25 [2ms]

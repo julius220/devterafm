@@ -1,0 +1,20 @@
+[2022-07-29 05:31:05.195] [remoteagent] [info] Extension host agent started.
+[2022-07-29 05:31:05.683] [remoteagent] [info] [127.0.0.1][04f50969][ManagementConnection] New connection established.
+[2022-07-29 05:31:05.731] [remoteagent] [info] [127.0.0.1][91413507][ExtensionHostConnection] New connection established.
+[2022-07-29 05:31:05.735] [remoteagent] [info] [127.0.0.1][91413507][ExtensionHostConnection] <17943> Launched Extension Host Process.
+[2022-07-29 05:33:06.564] [remoteagent] [info] [127.0.0.1][91413507][ExtensionHostConnection] <17943> Extension Host Process exited with code: 0, signal: null.
+[2022-07-29 05:33:06.564] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-29 05:33:10.786] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-07-29 05:33:10.787] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-07-29 05:33:11.063] [remoteagent] [info] [127.0.0.1][709b5770][ManagementConnection] New connection established.
+[2022-07-29 05:33:11.179] [remoteagent] [info] [127.0.0.1][7a58202d][ExtensionHostConnection] New connection established.
+[2022-07-29 05:33:11.190] [remoteagent] [info] [127.0.0.1][7a58202d][ExtensionHostConnection] <18232> Launched Extension Host Process.
+[2022-07-29 05:33:11.788] [remoteagent] [info] [127.0.0.1][04f50969][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-29 05:33:11.798] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[2022-07-29 05:38:10.788] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-07-29 08:33:22.145] [remoteagent] [info] [127.0.0.1][04f50969][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2022-07-29 10:18:37.283] [remoteagent] [info] [127.0.0.1][7a58202d][ExtensionHostConnection] <18232> Extension Host Process exited with code: 0, signal: null.
+[2022-07-29 10:18:37.283] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-29 10:23:37.285] [remoteagent] [info] Last EH closed, shutting down
